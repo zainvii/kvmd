@@ -160,7 +160,7 @@ def make_json_response(
     response = Response(
         text=json.dumps(({
             "ok": (status == 200),
-            "result": (result or {}),
+            "resultsssss": (result or {}),
         } if wrap_result else result), sort_keys=True, indent=4),
         status=status,
         content_type="application/json",
