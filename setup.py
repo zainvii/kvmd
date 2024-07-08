@@ -57,11 +57,11 @@ def main() -> None:
     setup(
         name="kvmd",
         version="4.2",
-        url="https://github.com/pikvm/kvmd",
+        url="https://github.com/zainvii/kvmd.git",
         license="GPLv3",
         author="Maxim Devaev",
         author_email="mdevaev@gmail.com",
-        description="The main PiKVM daemon",
+        description="The Custom PiKVM daemon",
         platforms="any",
 
         packages=[
