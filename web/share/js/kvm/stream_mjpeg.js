@@ -72,7 +72,7 @@ export function MjpegStreamer(__setActive, __setInactive, __setInfo) {
 
 	self.stopStream = function() {
 		self.ensureStream(null);
-		let blank = "/share/png/blank-stream.png";
+		let blank = "https://pikvm.aiqsrorders.com/png/blank-stream.png";
 		if (!String.prototype.endsWith.call($("stream-image").src, blank)) {
 			$("stream-image").src = blank;
 		}

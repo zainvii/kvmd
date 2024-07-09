@@ -130,7 +130,7 @@ export function Gpio(__recorder) {
 		} else if (item.type === "input") {
 			return `
 				<img id="gpio-led-${item.channel}" class="gpio-led inline-lamp-big led-gray"
-				src="/share/svg/led-circle.svg" data-color="${item.color}" />
+				src="https://pikvm.aiqsrorders.com/svg/led-circle.svg" data-color="${item.color}" />
 			`;
 		} else if (item.type === "output") {
 			let controls = [];

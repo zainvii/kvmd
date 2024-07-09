@@ -149,16 +149,16 @@ select {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	background-image: url("../svg/select-arrow-normal.svg");
+	background-image: url("https://pikvm.aiqsrorders.com/svg/select-arrow-normal.svg");
 	background-position: center right;
 	background-repeat: no-repeat;
 }
 select:disabled {
-	background-image: url("../svg/select-arrow-inactive.svg") !important;
+	background-image: url("https://pikvm.aiqsrorders.com/svg/select-arrow-inactive.svg") !important;
 }
 select:active {
 	color: var(--cs-control-intensive-fg) !important;
-	background-image: url("../svg/select-arrow-intensive.svg") !important;
+	background-image: url("https://pikvm.aiqsrorders.com/svg/select-arrow-intensive.svg") !important;
 }
 select option {
 	color: var(--cs-control-default-fg);
