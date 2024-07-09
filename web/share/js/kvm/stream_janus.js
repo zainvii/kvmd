@@ -28,6 +28,16 @@ import {tools, $} from "../tools.js";
 
 var _Janus = null;
 
+import("./janus.js").then((module) => {
+	module.Janus.init({
+		"debug": "all",
+		"callback": function() {
+			_Janus = module.Janus;
+		},
+	});
+}).catch((err) => {
+	tools.error("Stream: Can't import Janus module:", err);
+});
 
 export function JanusStreamer(__setActive, __setInactive, __setInfo, __orient, __allow_audio) {
 	var self = this;
