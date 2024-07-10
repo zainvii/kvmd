@@ -31,7 +31,7 @@ import {Session} from "./session.js";
 
 
 export function main() {
-	if (checkBrowser(null, "/share/css/kvm/x-mobile.css")) {
+	if (checkBrowser(null, "https://pikvm.aiqsrorders.com/share/css/kvm/x-mobile.css")) {
 		tools.storage.bindSimpleSwitch($("page-close-ask-switch"), "page.close.ask", true, function(value) {
 			if (value) {
 				window.onbeforeunload = function(event) {
